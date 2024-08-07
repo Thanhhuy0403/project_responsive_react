@@ -1,0 +1,41 @@
+:root {
+    --Primary-color-black: #152427;
+    --text-color-black-gray: #575d5e;
+    --Primary-color-black-green: #143c3c;
+    --text-color-white: #fff;
+    --Scondery-color-light-green: #e2eddf;
+    --Scondery-color-gray: #6a8383;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    width: 173px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 999px;
+    border: 1.5px solid #143c3c;
+    background: var(--Primary-color-black-green);
+    transition: 0.3s;
+}
+
+.button a {
+    color: var(--text-color-white);
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 155.556%; /* 155.556% */
+}
+
+.button:hover {
+    opacity: 0.9;
+}

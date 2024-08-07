@@ -1,0 +1,63 @@
+.header {
+    padding-top: 28px;
+    padding-bottom: 5px;
+    position: sticky;
+    top: -23px;
+    z-index: 3;
+    background-color: #fff;
+}
+
+.header .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav-bar .list-item > a {
+    color: var(--text-color-black-gray, #152427);
+    font-family: Public Sans;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 155.556%;
+    margin: 0 7px;
+    padding: 10px 12px;
+}
+
+.header .nav-bar .list-item > a {
+    color: var(--Primary-color-black, #152427);
+    position: relative;
+}
+
+.header .nav-bar .list-item > a:hover {
+    font-weight: 700;
+}
+
+.header .nav-bar .list-item > a::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #143c3c;
+    bottom: 7px;
+    left: 13px;
+    display: none;
+}
+
+.header .nav-bar .list-item > a.click::before {
+    display: block;
+}
+
+.header .nav-bar .list-item > a.click {
+    font-weight: 700;
+}
+
+.header .nav-bar .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav-bar .list-item .action {
+    margin-left: 69px;
+}

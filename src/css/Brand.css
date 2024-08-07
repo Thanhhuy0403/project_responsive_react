@@ -1,0 +1,57 @@
+.brand {
+    margin-top: 130px;
+}
+
+.brand .container {
+    padding: 78px 12px;
+    border-radius: 100.5px;
+    background-color: var(--Scondery-color-light-green);
+}
+
+.brand .container .list-item {
+    margin-left: 121px;
+    margin-right: 121px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand .item {
+    display: flex;
+    align-items: center;
+}
+
+.brand .Google {
+    color: var(--Primary-color-black-green);
+    font-size: 3.1rem;
+    font-weight: 500;
+}
+
+.brand .slack {
+    margin-left: 5px;
+    color: var(--Primary-color-black-green);
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.brand .agworld {
+    margin-left: 11px;
+    color: #163c35;
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+
+.brand .riotinto {
+    color: var(--Primary-color-black-green);
+    font-family: Sonsie One;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.brand .heroku {
+    margin-left: 14px;
+    color: var(--Primary-color-black-green);
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 0.1995rem;
+}

@@ -1,0 +1,135 @@
+.hero-header .container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-header .container::before {
+    content: "";
+    position: absolute;
+    width: 1140px;
+    height: 1px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #fff 0%, #dddcdc 51.09%, rgba(212, 212, 212, 0) 99.68%);
+    top: 0;
+}
+
+.hero-header .content {
+    width: 33%;
+}
+
+.hero-header .title {
+    color: var(--Primary-color-black);
+    font-family: Public Sans;
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 120%; /* 120% */
+}
+
+.hero-header .sub-title {
+    color: var(--text-color-black-gray);
+    /* Paragraph/h2 18px medium */
+    font-family: Public Sans;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 155.556%; /* 155.556% */
+    margin-top: 20px;
+}
+
+.hero-header .action {
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-header .action .watch-video {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-header .action .watch-video a {
+    display: inline-block;
+}
+
+.hero-header .action .watch-video:hover .support {
+    transform: rotate(180deg);
+    left: 40px;
+    transition: 0.5s;
+}
+
+.hero-header .action .watch-video .support {
+    position: absolute;
+    top: -8px;
+    left: 6px;
+}
+
+.hero-header .action .watch-video a {
+    margin-left: 15px;
+    color: #152427;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 166.667%; /* 166.667% */
+}
+
+.hero-header .image {
+    display: flex;
+    position: relative;
+}
+
+.hero-header .image .back-ground {
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    flex-shrink: 0;
+    border-radius: 340px;
+    background: #4dbb9a;
+    filter: blur(137px);
+    left: 140px;
+    top: 200px;
+}
+
+.hero-header .image > img {
+    margin-right: 20px;
+    display: block;
+    z-index: 1;
+}
+
+.hero-header .image .item-2 {
+    padding-top: 135px;
+}
+
+.hero-header .container .deco {
+    position: relative;
+    position: absolute;
+}
+
+.hero-header .container > img {
+    position: absolute;
+    z-index: 2;
+}
+
+.hero-header .container .hero-bong {
+    top: 54px;
+    left: 222px;
+}
+
+.hero-header .container .hero-day {
+    top: 49px;
+    left: 265px;
+}
+
+.hero-header .container .hero-bong-nguoc {
+    top: 553px;
+    left: 1023px;
+}
+
+.hero-header .container .hero-day-nguoc {
+    transform: rotate(180deg);
+    top: 284px;
+    left: 518px;
+}

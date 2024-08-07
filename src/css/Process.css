@@ -1,0 +1,132 @@
+.process {
+    margin-top: 115px;
+}
+
+.process .sub-title {
+    position: relative;
+    color: var(--Primary-color-black);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 112.5%; /* 112.5% */
+    margin-left: 53px;
+}
+
+.process .title {
+    position: relative;
+    margin-top: 20px;
+    width: 42%;
+    color: var(--Primary-color-black);
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 123.81%; /* 123.81% */
+}
+
+.process .list-item {
+    margin-top: 81px;
+}
+
+.process .list-item .item {
+    display: flex;
+    position: relative;
+    width: 1140px;
+    height: 185px;
+    flex-shrink: 0;
+    padding: 57px 41px 21px 30px;
+}
+
+.process .item .col-1 {
+    color: var(--Primary-color-black-green);
+    font-size: 7.2rem;
+    font-weight: 600;
+    line-height: 72.222%; /* 72.222% */
+}
+
+.process .item .col-2 .desc {
+    color: var(--Primary-color-black);
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 100%; /* 100% */
+}
+
+.process .item .col-2 {
+    margin-left: 64px;
+    display: flex;
+    flex-direction: column;
+    width: 372px;
+}
+
+.process .item .col-2 a {
+    color: var(--text-color-black-gray);
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 100%; /* 100% */
+    margin-top: 22px;
+}
+
+.process .item > img {
+    position: absolute;
+    top: -300px;
+    left: 653px;
+}
+
+.process .item .col-3 {
+    color: var(--text-color-light-gray);
+    font-family: Public Sans;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 155.556%; /* 155.556% */
+    margin-left: 151px;
+}
+
+.process .item::after {
+    content: "";
+    width: 1131px;
+    position: absolute;
+    height: 3px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #83a17d 4.17%, rgba(131, 161, 125, 0) 36.46%);
+    top: 183px;
+}
+
+.process .item:hover {
+    border-radius: 33px;
+    background: var(--Scondery-color-light-green, #e2eddf);
+    transition: 0.25s;
+}
+
+.process .item:hover::after {
+    display: none;
+}
+
+.process .item .col-2 > a {
+    display: none;
+}
+
+.process .item:hover .col-2 > a {
+    display: inline;
+    text-decoration: underline;
+    transition: 0.25s;
+}
+
+.process .sub-title::before {
+    content: "";
+    width: 25px;
+    height: 1px;
+    flex-shrink: 0;
+    background: var(--Primary-color-black);
+    position: absolute;
+    top: 11px;
+    left: -47px;
+}
+
+.process .title::after {
+    content: "";
+    width: 66px;
+    height: 2px;
+    flex-shrink: 0;
+    background: var(--Primary-color-black);
+    position: absolute;
+    bottom: 13px;
+    right: 0px;
+}

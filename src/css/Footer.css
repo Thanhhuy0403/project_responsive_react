@@ -1,0 +1,97 @@
+.contact {
+    margin-top: 102px;
+    padding-top: 72px;
+    padding-bottom: 96px;
+    background: var(--Primary-color-black-green);
+}
+
+.contact .container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.contact .part-1 .title {
+    color: var(--text-color-white);
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+.contact .part-1 form input {
+    margin-top: 25px;
+    width: 354px;
+    height: 59px;
+    background-color: transparent;
+    color: var(--Scondery-color-gray);
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 100%; /* 100% */
+    position: relative;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.contact .part-1 form input:focus {
+    outline: none;
+}
+
+.contact .part-1 .icon {
+    margin-top: 47px;
+    display: flex;
+}
+
+.contact .part-1 .icon svg {
+    margin-right: 22px;
+}
+
+.contact .part-2 {
+    display: flex;
+}
+
+.contact .part-2 .item {
+    width: 80px;
+    margin-left: 50px;
+}
+
+.contact .part-2 .item > p {
+    color: var(--text-color-white);
+    font-family: Public Sans;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 155.556%; /* 155.556% */
+}
+
+.contact .part-2 .sub-item > a {
+    color: var(--Scondery-color-gray);
+    font-family: Public Sans;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 225%; /* 225% */
+}
+
+.contact .part-2 .sub-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .part-1 .icon svg:hover circle {
+    fill: #a75325;
+    /* stroke: transparent; */
+    transition: 0.3s;
+}
+
+.contact .part-2 .sub-item a:hover {
+    text-decoration: underline;
+    transition: 0.25s;
+}
+
+.contact .container::after {
+    content: "";
+    width: 1140px;
+    height: 1px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #143c3c 2.28%, #295a5a 55.65%, rgba(38, 82, 82, 0) 102.06%);
+    position: absolute;
+    bottom: -45px;
+}
