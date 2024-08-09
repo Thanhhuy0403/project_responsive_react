@@ -15,7 +15,6 @@
 .process .title {
     position: relative;
     margin-top: 20px;
-    width: 42%;
     color: var(--Primary-color-black);
     font-size: 4.2rem;
     font-weight: 600;
@@ -29,17 +28,19 @@
 .process .list-item .item {
     display: flex;
     position: relative;
-    width: 1140px;
-    height: 185px;
+    max-width: 1140px;
+    min-height: 185px;
     flex-shrink: 0;
     padding: 57px 41px 21px 30px;
 }
 
+.process .list-item .item span {
+    display: flex;
+}
+
 .process .item .col-1 {
     color: var(--Primary-color-black-green);
-    font-size: 7.2rem;
     font-weight: 600;
-    line-height: 72.222%; /* 72.222% */
 }
 
 .process .item .col-2 .desc {
@@ -50,7 +51,6 @@
 }
 
 .process .item .col-2 {
-    margin-left: 64px;
     display: flex;
     flex-direction: column;
     width: 372px;
@@ -76,12 +76,10 @@
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 155.556%; /* 155.556% */
-    margin-left: 151px;
 }
 
 .process .item::after {
     content: "";
-    width: 1131px;
     position: absolute;
     height: 3px;
     flex-shrink: 0;
@@ -116,8 +114,6 @@
     flex-shrink: 0;
     background: var(--Primary-color-black);
     position: absolute;
-    top: 11px;
-    left: -47px;
 }
 
 .process .title::after {
@@ -128,5 +124,4 @@
     background: var(--Primary-color-black);
     position: absolute;
     bottom: 13px;
-    right: 0px;
 }

@@ -3,14 +3,10 @@
 }
 
 .brand .container {
-    padding: 78px 12px;
-    border-radius: 100.5px;
     background-color: var(--Scondery-color-light-green);
 }
 
 .brand .container .list-item {
-    margin-left: 121px;
-    margin-right: 121px;
     display: flex;
     align-items: center;
     justify-content: space-between;

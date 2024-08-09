@@ -13,13 +13,10 @@
 
 .blog .sub-title::before {
     content: "";
-    width: 25px;
     height: 1px;
     flex-shrink: 0;
     background: var(--Primary-color-black);
     position: absolute;
-    top: 10px;
-    left: -43px;
 }
 
 .blog .row {
@@ -31,7 +28,6 @@
 
 .blog .row .title {
     color: var(--Primary-color-black);
-    font-size: 4.2rem;
     font-weight: 600;
     line-height: 123.81%; /* 123.81% */
     position: relative;
@@ -39,17 +35,13 @@
 
 .blog .row .title::after {
     content: "";
-    width: 82px;
     height: 3px;
     flex-shrink: 0;
     background: var(--Primary-color-black);
     position: absolute;
-    right: -37px;
-    bottom: 16px;
 }
 
 .blog .row .desc {
-    margin-left: 211px;
     color: var(--text-color-light-gray);
     font-size: 1.6rem;
     font-weight: 500;

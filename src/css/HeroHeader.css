@@ -8,7 +8,7 @@
 .hero-header .container::before {
     content: "";
     position: absolute;
-    width: 1140px;
+    max-width: 1140px;
     height: 1px;
     flex-shrink: 0;
     background: linear-gradient(90deg, #fff 0%, #dddcdc 51.09%, rgba(212, 212, 212, 0) 99.68%);
@@ -16,7 +16,7 @@
 }
 
 .hero-header .content {
-    width: 33%;
+    min-width: 33%;
 }
 
 .hero-header .title {
@@ -79,15 +79,14 @@
 .hero-header .image {
     display: flex;
     position: relative;
+    padding-top: 67px;
 }
 
 .hero-header .image .back-ground {
     position: absolute;
-    width: 340px;
-    height: 340px;
     flex-shrink: 0;
     border-radius: 340px;
-    background: #4dbb9a;
+    background: #4dbb9a; /* #4dbb9a */
     filter: blur(137px);
     left: 140px;
     top: 200px;
@@ -100,7 +99,8 @@
 }
 
 .hero-header .image .item-2 {
-    padding-top: 135px;
+    margin-top: 48px;
+    margin-bottom: -48px;
 }
 
 .hero-header .container .deco {
@@ -111,25 +111,4 @@
 .hero-header .container > img {
     position: absolute;
     z-index: 2;
-}
-
-.hero-header .container .hero-bong {
-    top: 54px;
-    left: 222px;
-}
-
-.hero-header .container .hero-day {
-    top: 49px;
-    left: 265px;
-}
-
-.hero-header .container .hero-bong-nguoc {
-    top: 553px;
-    left: 1023px;
-}
-
-.hero-header .container .hero-day-nguoc {
-    transform: rotate(180deg);
-    top: 284px;
-    left: 518px;
 }

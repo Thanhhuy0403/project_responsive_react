@@ -13,7 +13,6 @@
 
 .contact .part-1 .title {
     color: var(--text-color-white);
-    font-size: 3.2rem;
     font-weight: 500;
 }
 
@@ -24,7 +23,7 @@
     background-color: transparent;
     color: var(--Scondery-color-gray);
     font-size: 2.2rem;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 100%; /* 100% */
     position: relative;
     border-top: none;
@@ -47,11 +46,6 @@
 
 .contact .part-2 {
     display: flex;
-}
-
-.contact .part-2 .item {
-    width: 80px;
-    margin-left: 50px;
 }
 
 .contact .part-2 .item > p {
@@ -88,7 +82,7 @@
 
 .contact .container::after {
     content: "";
-    width: 1140px;
+    max-width: 1140px;
     height: 1px;
     flex-shrink: 0;
     background: linear-gradient(90deg, #143c3c 2.28%, #295a5a 55.65%, rgba(38, 82, 82, 0) 102.06%);

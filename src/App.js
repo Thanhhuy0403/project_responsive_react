@@ -10,11 +10,13 @@ import Project from "./main/Project/Project";
 import Feature from "./main/Feature/Feature";
 import Blog from "./main/Blog/Blog";
 import Footer from "./Footer/Footer";
+import MenuNav from "./Navbar/MenuNav";
 
 function App() {
     return (
         <div className="App">
             <Navbar />
+            <MenuNav />
             <main>
                 <HeroHeader />
                 <Brand />
